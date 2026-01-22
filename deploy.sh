@@ -1,3 +1,5 @@
+sudo docker pull mirkogutierrezappx/sgd:latest
+
 sudo docker stop sgd-container 2>/dev/null
 sudo docker rm sgd-container 2>/dev/null
 
@@ -9,4 +11,5 @@ sudo docker run \
            --env-file .env \
            --network appx \
            --add-host=host.docker.internal:host-gateway \
-           --name sgd-container sgd
+           --name sgd-container sgd \
+            mirkogutierrezappx/sgd:latest
