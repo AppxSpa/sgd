@@ -7,7 +7,7 @@ NOMBRE_APP="sgd"
 PUERTO="8090"
 
 # CORRECCIÓN: Usar la organización AppxSpa en minúsculas
-IMAGEN_HUB="ghcr.io/appxspa/acceso" 
+IMAGEN_HUB="ghcr.io/appxspa/sgd" 
 # =========================================================
 
 OPCION=${1:-"dev"}
